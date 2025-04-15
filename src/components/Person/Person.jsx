@@ -8,6 +8,8 @@ export const Person = ({ person }) => {
       person.sex === 'm'
         ? `${person.partnerName} is my wife`
         : `${person.partnerName} is my husband`;
+  } else {
+    partnerText = 'I am not married';
   }
 
   return (
